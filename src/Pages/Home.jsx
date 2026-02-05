@@ -256,7 +256,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
         <div className="relative">
           <img
-            src="https://www.the74million.org/wp-content/uploads/2023/02/iStock-470493341-copy.jpg"
+            src="https://library.brentwoodtn.gov/files/assets/library/v/1/website/main-banner-photos/shelves.jpg"
             className="h-45 w-full object-cover"
           />
           <span className="absolute top-3 left-3 bg-blue-600 text-white text-xs px-3 py-1 rounded-full">
