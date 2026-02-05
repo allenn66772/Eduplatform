@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../Components/Header'
 import { FaInstagram, FaPhone, FaRegStar, FaUsers } from "react-icons/fa";
-import { LuHeadphones, LuShield, LuUsers } from "react-icons/lu";
-import { FiBookOpen, FiCalendar, FiDownload, FiUsers } from "react-icons/fi";
+import { LuFileText, LuHeadphones, LuQuote, LuShield, LuUsers } from "react-icons/lu";
+import { FiAward, FiBookOpen, FiCalendar, FiDownload, FiUsers } from "react-icons/fi";
 import { CiPlay1 } from "react-icons/ci";
 import { LuGraduationCap } from "react-icons/lu";
 import { FiTarget } from "react-icons/fi";
@@ -19,6 +19,7 @@ import { IoLocationSharp, IoNewspaper } from 'react-icons/io5';
 import { GrLineChart, GrYoutube } from 'react-icons/gr';
 import { MdLocalPhone, MdMailOutline, MdOutlinePhoneIphone } from 'react-icons/md';
 import { SlSocialFacebook } from 'react-icons/sl';
+import { TbTrendingUp } from 'react-icons/tb';
 
 function Home() {
   return (
@@ -175,7 +176,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       {/* CARD 4 */}
       <div className="bg-white rounded-xl shadow-md p-6">
         <div className="w-16 h-16 bg-[#F97316] rounded-xl flex items-center justify-center text-white mb-4 text-2xl">
-          <GiAchievement />
+          <FiAward />
         </div>
         <h3 className="font-semibold text-lg mb-2">Skill Development</h3>
         <p className="text-sm text-gray-500 mb-4">
@@ -498,7 +499,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       {/* Card 3 */}
       <div className="flex flex-col items-center justify-center gap-4">
         <div className="w-14 h-14 sm:w-16 sm:h-16 bg-blue-400 flex items-center justify-center rounded-xl">
-          <GiAchievement className="text-2xl sm:text-3xl text-white" />
+          < FiAward className="text-2xl sm:text-3xl text-white" />
         </div>
         <div className="text-center">
           <div className="text-white text-xl sm:text-2xl font-bold">98%</div>
@@ -577,7 +578,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
 
     <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col gap-4 items-center text-center hover:shadow-md transition">
       <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl text-blue-500">
-        <IoNewspaper />
+        <LuFileText />
       </div>
       <h3 className="font-semibold text-lg">Test Series & Practice</h3>
       <p className="text-gray-600 text-sm">
@@ -587,7 +588,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
 
     <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col gap-4 items-center text-center hover:shadow-md transition">
       <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl text-blue-500">
-        <GrLineChart />
+        <TbTrendingUp />
       </div>
       <h3 className="font-semibold text-lg">Progress Tracking</h3>
       <p className="text-gray-600 text-sm">
@@ -657,8 +658,9 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between">
         <div>
           <div className="flex justify-between items-start mb-4">
-            <span className="text-3xl text-gray-400">❝❞</span>
-            <div className="flex gap-1 text-yellow-400"><FaStar /></div>
+            <span className="text-3xl text-gray-400"><LuQuote className='text-black' /></span>
+            <div className="flex gap-1 text-yellow-400 text-lg">
+                 {[...Array(5)].map((_, i) => (<FaStar key={i} />))}</div>
           </div>
           <p className="text-gray-600 text-sm leading-relaxed mb-6">
             "EduPlatform's NEET coaching was exceptional. The structured approach
@@ -668,8 +670,9 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
         </div>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gray-300"></div>
-            <div>
+        <div className="w-10 h-10 rounded-full bg-gray-300 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLA994hpL3PMmq0scCuWOu0LGsjef49dyXVg&s" 
+          alt=""className="w-full h-full object-cover"/></div>            <div>
               <h4 className="font-semibold text-sm">Priya Sharma</h4>
               <p className="text-xs text-gray-500">NEET 2024 AIR 156</p>
             </div>
@@ -684,8 +687,9 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between">
         <div>
           <div className="flex justify-between items-start mb-4">
-            <span className="text-3xl text-gray-400">❝❞</span>
-            <div className="flex gap-1 text-yellow-400"><FaStar /></div>
+            <span className="text-3xl text-gray-400"><LuQuote className='text-black' /></span>
+           <div className="flex gap-1 text-yellow-400 text-lg">
+                 {[...Array(5)].map((_, i) => (<FaStar key={i} />))}</div>
           </div>
           <p className="text-gray-600 text-sm leading-relaxed mb-6">
             "The doubt clearing sessions and personalized attention from teachers
@@ -695,7 +699,9 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
         </div>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gray-300"></div>
+            <div className="w-10 h-10 rounded-full bg-gray-300 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLA994hpL3PMmq0scCuWOu0LGsjef49dyXVg&s" 
+          alt=""className="w-full h-full object-cover"/></div> 
             <div>
               <h4 className="font-semibold text-sm">Arjun Patel</h4>
               <p className="text-xs text-gray-500">JEE Advanced AIR 89</p>
@@ -711,8 +717,9 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between">
         <div>
           <div className="flex justify-between items-start mb-4">
-            <span className="text-3xl text-gray-400">❝❞</span>
-            <div className="flex gap-1 text-yellow-400"><FaStar /></div>
+            <span className="text-3xl text-gray-400"><LuQuote className='text-black' /></span>
+            <div className="flex gap-1 text-yellow-400 text-lg">
+                 {[...Array(5)].map((_, i) => (<FaStar key={i} />))}</div>
           </div>
           <p className="text-gray-600 text-sm leading-relaxed mb-6">
             "The interactive classes and comprehensive study material helped me
@@ -722,7 +729,9 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
         </div>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gray-300"></div>
+            <div className="w-10 h-10 rounded-full bg-gray-300 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLA994hpL3PMmq0scCuWOu0LGsjef49dyXVg&s" 
+          alt=""className="w-full h-full object-cover"/></div> 
             <div>
               <h4 className="font-semibold text-sm">Sneha Reddy</h4>
               <p className="text-xs text-gray-500">Class 12 CBSE - 98.2%</p>
@@ -738,8 +747,9 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between">
         <div>
           <div className="flex justify-between items-start mb-4">
-            <span className="text-3xl text-gray-400">❝❞</span>
-            <div className="flex gap-1 text-yellow-400"><FaStar /></div>
+            <span className="text-3xl text-gray-400"><LuQuote className='text-black' /></span>
+            <div className="flex gap-1 text-yellow-400 text-lg">
+                 {[...Array(5)].map((_, i) => (<FaStar key={i} />))}</div>
           </div>
           <p className="text-gray-600 text-sm leading-relaxed mb-6">
             "EduPlatform's UPSC course is comprehensive with excellent current
@@ -749,7 +759,9 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
         </div>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gray-300"></div>
+           <div className="w-10 h-10 rounded-full bg-gray-300 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLA994hpL3PMmq0scCuWOu0LGsjef49dyXVg&s" 
+          alt=""className="w-full h-full object-cover"/></div> 
             <div>
               <h4 className="font-semibold text-sm">Rahul Kumar</h4>
               <p className="text-xs text-gray-500">UPSC CSE 2023 - Rank 45</p>
@@ -765,8 +777,9 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between">
         <div>
           <div className="flex justify-between items-start mb-4">
-            <span className="text-3xl text-gray-400">❝❞</span>
-            <div className="flex gap-1 text-yellow-400"><FaStar /></div>
+            <span className="text-3xl text-gray-400"><LuQuote className='text-black' /></span>
+           <div className="flex gap-1 text-yellow-400 text-lg">
+                 {[...Array(5)].map((_, i) => (<FaStar key={i} />))}</div>
           </div>
           <p className="text-gray-600 text-sm leading-relaxed mb-6">
             "The speed training and mock tests for SSC were exactly what I needed.
@@ -776,7 +789,9 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
         </div>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gray-300"></div>
+            <div className="w-10 h-10 rounded-full bg-gray-300 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLA994hpL3PMmq0scCuWOu0LGsjef49dyXVg&s" 
+          alt=""className="w-full h-full object-cover"/></div> 
             <div>
               <h4 className="font-semibold text-sm">Ananya Singh</h4>
               <p className="text-xs text-gray-500">SSC CGL 2023 Selected</p>
@@ -792,8 +807,9 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between">
         <div>
           <div className="flex justify-between items-start mb-4">
-            <span className="text-3xl text-gray-400">❝❞</span>
-            <div className="flex gap-1 text-yellow-400"><FaStar /></div>
+            <span className="text-3xl text-gray-400"><LuQuote className='text-black' /></span>
+           <div className="flex gap-1 text-yellow-400 text-lg">
+                 {[...Array(5)].map((_, i) => (<FaStar key={i} />))}</div>
           </div>
           <p className="text-gray-600 text-sm leading-relaxed mb-6">
             "The banking exam preparation course is well-structured with focus on
@@ -803,7 +819,9 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
         </div>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gray-300"></div>
+            <div className="w-10 h-10 rounded-full bg-gray-300 overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLA994hpL3PMmq0scCuWOu0LGsjef49dyXVg&s" 
+          alt=""className="w-full h-full object-cover"/></div> 
             <div>
               <h4 className="font-semibold text-sm">Vikash Mehta</h4>
               <p className="text-xs text-gray-500">Banking PO - SBI</p>
@@ -838,7 +856,8 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
   </div>
 </div>
 {/* div 7 */}
-<div className="w-full min-h-[613.4px] mt-3 bg-linear-to-r from-blue-600 via-blue-500 to-pink-500 flex items-center justify-center px-4">
+<div className="w-full min-h-[613.4px] mt-3 bg-linear-to-r from-[#017CBA] via-purple-700 via-[40%] to-[#DB0082] flex items-center justify-center px-4">
+
 
   <div className="w-full max-w-304 h-full flex flex-col lg:flex-row items-center justify-between text-white gap-12">
 
@@ -955,32 +974,28 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
 </div>
 {/* Footer */}
 <footer className="w-full bg-linear-to-b from-[#0B1220] to-[#0E1627] text-gray-300">
-  
-  {/* Top section */}
-  <div className="max-w-360 mx-auto px-8 py-16">
+  <div className="max-w-[1440px] mx-auto px-6 sm:px-8 py-12 sm:py-16">
     
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
 
-      {/* Brand */}
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 items-start">
         <div className="flex items-center gap-2 text-white text-xl font-semibold">
-          <LuGraduationCap className='text-blue-500 text-3xl'/> <span>EduPlatform</span>
+          <LuGraduationCap className="text-blue-500 text-3xl" />
+          <span>EduPlatform</span>
         </div>
-        <p className="text-sm leading-relaxed text-gray-400">
+        <p className="text-sm leading-relaxed text-gray-400 max-w-xs">
           Empowering students with quality education through comprehensive
           online tuition and coaching programs.
         </p>
-
-        <div className="flex gap-4 text-gray-400">
-          <span><SlSocialFacebook /></span>
-          <span><FaXTwitter /></span>
-          <span><FaInstagram /></span>
-          <span><GrYoutube /></span>
+        <div className="flex gap-4 text-gray-400 text-lg">
+          <SlSocialFacebook />
+          <FaXTwitter />
+          <FaInstagram />
+          <GrYoutube />
         </div>
       </div>
 
-      {/* Quick Links */}
-      <div>
+      <div className="flex flex-col items-start">
         <h3 className="text-white font-semibold mb-4">Quick Links</h3>
         <ul className="flex flex-col gap-2 text-sm text-gray-400">
           <li>School Tuition</li>
@@ -991,8 +1006,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
         </ul>
       </div>
 
-      {/* Support */}
-      <div>
+      <div className="flex flex-col items-start">
         <h3 className="text-white font-semibold mb-4">Support</h3>
         <ul className="flex flex-col gap-2 text-sm text-gray-400">
           <li>Help Center</li>
@@ -1003,34 +1017,35 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
         </ul>
       </div>
 
-      {/* Contact Info */}
-      <div>
+      <div className="flex flex-col items-start">
         <h3 className="text-white font-semibold mb-4">Contact Info</h3>
         <ul className="flex flex-col gap-3 text-sm text-gray-400">
           <li className="flex items-center gap-3">
-            <MdMailOutline className='text-blue-500 text-xl'/> support@eduplatform.com
+            <MdMailOutline className="text-blue-500 text-xl shrink-0" />
+            support@eduplatform.com
           </li>
           <li className="flex items-center gap-3">
-           <MdLocalPhone className='text-blue-500 text-xl' /> +91 98765 43210
+            <MdLocalPhone className="text-blue-500 text-xl shrink-0" />
+            +91 98765 43210
           </li>
           <li className="flex items-center gap-3">
-            <IoLocationSharp className='text-blue-500 text-xl' /> Mumbai, Maharashtra, India
+            <IoLocationSharp className="text-blue-500 text-xl shrink-0" />
+            Mumbai, Maharashtra, India
           </li>
         </ul>
       </div>
 
     </div>
 
-    {/* Divider */}
-    <div className="w-full h-px bg-gray-700/40 my-12"></div>
+    <div className="w-full h-px bg-gray-700/40 my-10 sm:my-12"></div>
 
-    {/* Bottom */}
-    <div className="text-center text-sm text-gray-500">
+    <div className="text-center text-xs sm:text-sm text-gray-500 px-4">
       © 2024 EduPlatform. All rights reserved. | Designed for Excellence in Education
     </div>
 
   </div>
 </footer>
+
 
 
 
