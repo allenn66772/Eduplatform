@@ -256,7 +256,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
         <div className="relative">
           <img
-            src="https://library.brentwoodtn.gov/files/assets/library/v/1/website/main-banner-photos/shelves.jpg"
+            src="https://static.scientificamerican.com/sciam/cache/file/06577830-50EE-43EC-B24EE9222561D9E6_source.jpg?w=1200"
             className="h-45 w-full object-cover"
           />
           <span className="absolute top-3 left-3 bg-blue-600 text-white text-xs px-3 py-1 rounded-full">
