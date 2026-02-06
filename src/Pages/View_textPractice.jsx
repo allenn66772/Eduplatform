@@ -110,7 +110,7 @@ function View_textPractice() {
 
     </div>
     {/*  */}
-    <div className="w-full min-h-[900px] flex justify-center px-4">
+    <div className="w-full min-h-[900px] mb-6 flex justify-center px-4">
   <div className="w-full max-w-[1280px] min-h-[855.2px] bg-white">
 
     <div className="w-full max-w-[1216px] min-h-[68px] mt-16">

@@ -116,7 +116,7 @@ function TestPractice() {
 
 
     {/*  */}
-    <div className="w-full min-h-[170px] flex justify-center items-center px-4 mt-8">
+    <div className="w-full min-h-[170px] mb-6 flex justify-center items-center px-4 mt-8">
   <div className="w-full max-w-[1280px] min-h-[630px] bg-white flex flex-col items-center">
 
     <div className="w-full max-w-[1216px] min-h-[68px]">
