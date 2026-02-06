@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { LuGraduationCap } from "react-icons/lu";
 import { HiMenu, HiX } from "react-icons/hi";
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -51,7 +52,7 @@ function Header() {
         </li>
 
         <li className="cursor-pointer hover:text-blue-500">My Learning</li>
-        <li className="cursor-pointer hover:text-blue-500">Test Practice</li>
+        <Link to="/test-practice"><li className="cursor-pointer hover:text-blue-500">Test Practice</li></Link>
         <li className="cursor-pointer hover:text-blue-500">About</li>
       </ul>
 
