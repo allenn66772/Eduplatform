@@ -155,9 +155,11 @@ function View_textPractice() {
           </p>
         </div>
 
-        <button className="w-full py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 mt-3">
-          Start Daily Practice
-        </button>
+      <Link to='/test-screen/:id'>
+          <button className="w-full py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 mt-3">
+            Start Daily Practice
+          </button>
+      </Link>
       </div>
 
       <div className="bg-white rounded-xl border border-gray-200 p-6 flex flex-col justify-between">
@@ -178,9 +180,11 @@ function View_textPractice() {
           </ul>
         </div>
 
-        <button className="w-full py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 mt-3">
-          Start Mock Test
-        </button>
+        <Link to='/test-screen/:id'>
+          <button className="w-full py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 mt-3">
+            Start Mock Test
+          </button>
+        </Link>
       </div>
 
       <div className="bg-white rounded-xl border border-gray-200 p-6">
