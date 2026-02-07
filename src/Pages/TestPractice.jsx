@@ -117,18 +117,18 @@ function TestPractice() {
 
     {/*  */}
     <div className="w-full min-h-42.5 mb-6 flex justify-center items-center px-4 mt-8">
-  <div className="w-full max-w-[1280px] min-h-[630px] bg-white flex flex-col items-center">
+  <div className="w-full max-w-7xl min-h-157.5 bg-white flex flex-col items-center">
 
-    <div className="w-full max-w-[1216px] min-h-[68px]">
+    <div className="w-full max-w-304 min-h-17">
       <h1 className="text-3xl md:text-4xl font-bold">Test Practice</h1>
       <p className="text-base md:text-lg pt-3 text-gray-500">
         Practice with mock tests and improve your preparation
       </p>
     </div>
 
-    <div className="w-full max-w-[1216px] min-h-[102px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
+    <div className="w-full max-w-304 min-h-25.5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
       
-      <div className="h-[120px] bg-white rounded-xl border border-gray-200 flex items-center justify-center">
+      <div className="h-30 bg-white rounded-xl border border-gray-200 flex items-center justify-center">
         <div className="w-[236px] h-[52px] flex items-center gap-4">
           <div className="w-[32px] h-[32px] flex items-center justify-center text-blue-600">
             <FiBookOpen className="text-3xl" />
@@ -140,7 +140,7 @@ function TestPractice() {
         </div>
       </div>
 
-      <div className="h-[120px] bg-white rounded-xl border border-gray-200 flex items-center justify-center">
+      <div className="h-30 bg-white rounded-xl border border-gray-200 flex items-center justify-center">
         <div className="w-[236px] h-[52px] flex items-center gap-4">
           <div className="w-[32px] h-[32px] flex items-center justify-center">
             <FiCheckCircle className="text-3xl text-green-600" />
@@ -154,7 +154,7 @@ function TestPractice() {
         </div>
       </div>
 
-      <div className="h-[120px] bg-white rounded-xl border border-gray-200 flex items-center justify-center">
+      <div className="h-30 bg-white rounded-xl border border-gray-200 flex items-center justify-center">
         <div className="w-[236px] h-[52px] flex items-center gap-4">
           <div className="w-[32px] h-[32px] flex items-center justify-center text-blue-600">
             <LuChartColumnIncreasing className="text-3xl" />
@@ -168,12 +168,12 @@ function TestPractice() {
         </div>
       </div>
 
-      <div className="h-[120px] bg-white rounded-xl border border-gray-200 flex items-center justify-center">
-        <div className="w-[236px] h-[52px] flex items-center gap-4">
-          <div className="w-[32px] h-[32px] flex items-center justify-center">
+      <div className="h-30 bg-white rounded-xl border border-gray-200 flex items-center justify-center">
+        <div className="w-59 h-13 flex items-center gap-4">
+          <div className="w-8 h-8 flex items-center justify-center">
             <FiClock className="text-3xl text-orange-500" />
           </div>
-          <div className="w-[92px] h-[52px] flex flex-col justify-center">
+          <div className="w-23 h-13 flex flex-col justify-center">
             <span className="text-2xl font-semibold text-gray-900">45h</span>
             <span className="text-sm text-gray-500">Practice Time</span>
           </div>
@@ -182,9 +182,9 @@ function TestPractice() {
 
     </div>
 
-    <div className="w-full max-w-[1216px] min-h-[266px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-16">
+    <div className="w-full max-w-304 min-h-66.5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-16">
       
-      <div className="h-[266px] shadow-lg rounded-xl p-5 flex flex-col justify-between bg-white">
+      <div className="h-66.5 shadow-lg rounded-xl p-5 flex flex-col justify-between bg-white">
         <h2 className="text-lg font-semibold text-gray-900">
           NEET Mock Test 2024 - Biology
         </h2>

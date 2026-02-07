@@ -6,6 +6,7 @@ import { HiMenu, HiX } from 'react-icons/hi'
 import { LuFileText, LuGraduationCap } from 'react-icons/lu'
 import { RxCrossCircled } from 'react-icons/rx'
 import { Link } from 'react-router-dom'
+import Footer from '../Components/Footer'
 
 function Testresult() {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -120,7 +121,7 @@ function Testresult() {
 </div>
 
 {/* content div */}
-<div className="w-full min-h-screen bg-[#F9FAFB] flex justify-center px-4">
+<div className="w-full min-h-screen bg-[#F9FAFB] flex justify-center px-4 mb-8">
   <div className="w-full max-w-[1280px]">
     <div className="w-full mt-4 flex flex-col sm:flex-row justify-between gap-4">
       <div>
@@ -326,6 +327,7 @@ function Testresult() {
   </div>
 </div>
 
+<Footer/>
 
     </>
   )
