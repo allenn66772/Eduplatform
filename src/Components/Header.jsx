@@ -104,7 +104,7 @@ function Header() {
             </li>
 
             <li>My Learning</li>
-            <Link to="/test-practice"><li>Test Practice</li></Link>
+            <Link to="/test-practice">Test Practice</Link>
             <li>About</li>
 
             <div className="flex gap-4 mt-4">
