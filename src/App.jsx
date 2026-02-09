@@ -17,6 +17,7 @@ function App() {
     <Route path='/view-textpractice/:id' element={<View_textPractice/>}/>
     <Route path='/test-screen/:id' element={<Testquestions/>}/>
     <Route path='/test-result' element={<Testresult/>}/>
+    <Route path='/test-review' element={<Testresult review/>}/>
    </Routes>
     </>
   )
