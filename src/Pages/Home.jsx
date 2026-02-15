@@ -111,7 +111,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
     <div className="max-w-304 w-full mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
       {/* CARD 1 */}
-      <div className="bg-white rounded-xl shadow-md p-6">
+      <div className="bg-white rounded-xl shadow-[0px_10px_30px_rgba(0,0,0,0.08)] p-6">
         <div className="w-16 h-16 bg-blue-500 rounded-xl flex items-center justify-center text-white mb-4 text-2xl">
           <FiBookOpen />
         </div>
@@ -133,7 +133,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </div>
 
       {/* CARD 2 */}
-      <div className="bg-white rounded-xl shadow-md p-6">
+      <div className="bg-white rounded-xl shadow-[0px_10px_30px_rgba(0,0,0,0.08)] p-6">
         <div className="w-16 h-16 bg-[#A855F7] rounded-xl flex items-center justify-center text-white mb-4 text-2xl">
           <LuGraduationCap />
         </div>
@@ -155,7 +155,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </div>
 
       {/* CARD 3 */}
-      <div className="bg-white rounded-xl shadow-md p-6">
+      <div className="bg-white rounded-xl shadow-[0px_10px_30px_rgba(0,0,0,0.08)] p-6">
         <div className="w-16 h-16 bg-[#22C55E] rounded-xl flex items-center justify-center text-white mb-4 text-2xl">
           <FiTarget />
         </div>
@@ -175,7 +175,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </div>
 
       {/* CARD 4 */}
-      <div className="bg-white rounded-xl shadow-md p-6">
+      <div className="bg-white rounded-xl shadow-[0px_10px_30px_rgba(0,0,0,0.08)] p-6">
         <div className="w-16 h-16 bg-[#F97316] rounded-xl flex items-center justify-center text-white mb-4 text-2xl">
           <FiAward />
         </div>
@@ -194,7 +194,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </div>
 
       {/* CARD 5 */}
-      <div className="bg-white rounded-xl shadow-md p-6">
+      <div className="bg-white rounded-xl shadow-[0px_10px_30px_rgba(0,0,0,0.08)] p-6">
         <div className="w-16 h-16 bg-[#EF4444] rounded-xl flex items-center justify-center text-white mb-4 text-2xl">
           <LuCrown />
         </div>
@@ -213,7 +213,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </div>
 
       {/* CARD 6 */}
-      <div className="bg-white rounded-xl shadow-md p-6">
+      <div className="bg-white rounded-xl shadow-[0px_10px_30px_rgba(0,0,0,0.08)] p-6">
         <div className="w-16 h-16 bg-[#14B8A6] rounded-xl flex items-center justify-center text-white mb-4 text-2xl">
           <LuUsers />
         </div>
@@ -546,7 +546,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
   <div className="max-w-7xl w-full mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
     {/* Card */}
-    <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col gap-4 items-center text-center hover:shadow-md transition">
+    <div className="bg-white rounded-xl p-6  flex flex-col gap-4 items-center text-center shadow-[0px_6px_16px_rgba(0,0,0,0.10)]">
       <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl text-blue-500">
         <BsCameraVideo />
       </div>
@@ -557,7 +557,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </p>
     </div>
 
-    <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col gap-4 items-center text-center hover:shadow-md transition">
+    <div className="bg-white rounded-xl p-6  flex flex-col gap-4 items-center text-center shadow-[0px_6px_16px_rgba(0,0,0,0.10)]">
       <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl text-blue-500">
         <FiMessageCircle />
       </div>
@@ -567,7 +567,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </p>
     </div>
 
-    <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col gap-4 items-center text-center hover:shadow-md transition">
+    <div className="bg-white rounded-xl p-6  flex flex-col gap-4 items-center text-center shadow-[0px_6px_16px_rgba(0,0,0,0.10)]">
       <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl text-blue-500">
         <FiCalendar />
       </div>
@@ -577,7 +577,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </p>
     </div>
 
-    <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col gap-4 items-center text-center hover:shadow-md transition">
+    <div className="bg-white rounded-xl p-6  flex flex-col gap-4 items-center text-center shadow-[0px_6px_16px_rgba(0,0,0,0.10)]">
       <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl text-blue-500">
         <LuFileText />
       </div>
@@ -587,7 +587,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </p>
     </div>
 
-    <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col gap-4 items-center text-center hover:shadow-md transition">
+    <div className="bg-white rounded-xl p-6  flex flex-col gap-4 items-center text-center shadow-[0px_6px_16px_rgba(0,0,0,0.10)]">
       <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl text-blue-500">
         <TbTrendingUp />
       </div>
@@ -597,7 +597,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </p>
     </div>
 
-    <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col gap-4 items-center text-center hover:shadow-md transition">
+    <div className="bg-white rounded-xl p-6  flex flex-col gap-4 items-center text-center shadow-[0px_6px_16px_rgba(0,0,0,0.10)]">
       <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl text-blue-500">
         <BsGlobe2 />
       </div>
@@ -607,7 +607,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </p>
     </div>
 
-    <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col gap-4 items-center text-center hover:shadow-md transition">
+    <div className="bg-white rounded-xl p-6  flex flex-col gap-4 items-center text-center shadow-[0px_6px_16px_rgba(0,0,0,0.10)]">
       <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl text-blue-500">
         <LuShield />
       </div>
@@ -617,7 +617,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </p>
     </div>
 
-    <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col gap-4 items-center text-center hover:shadow-md transition">
+    <div className="bg-white rounded-xl p-6  flex flex-col gap-4 items-center text-center shadow-[0px_6px_16px_rgba(0,0,0,0.10)]">
       <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl text-blue-500">
         <LuHeadphones />
       </div>
@@ -656,7 +656,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
     >
 
         {/* Card 1 */}
-      <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between">
+      <div className="bg-white rounded-xl p-6  flex flex-col justify-between shadow-[0px_12px_32px_rgba(0,0,0,0.07)]">
         <div>
           <div className="flex justify-between items-start mb-4">
             <span className="text-3xl text-gray-400"><LuQuote className='text-black' /></span>
@@ -685,7 +685,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </div>
 
       {/* Card 2 */}
-      <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between">
+      <div className="bg-white rounded-xl p-6  flex flex-col justify-between shadow-[0px_12px_32px_rgba(0,0,0,0.07)]">
         <div>
           <div className="flex justify-between items-start mb-4">
             <span className="text-3xl text-gray-400"><LuQuote className='text-black' /></span>
@@ -715,7 +715,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </div>
 
       {/* Card 3 */}
-      <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between">
+      <div className="bg-white rounded-xl p-6  flex flex-col justify-between shadow-[0px_12px_32px_rgba(0,0,0,0.07)]">
         <div>
           <div className="flex justify-between items-start mb-4">
             <span className="text-3xl text-gray-400"><LuQuote className='text-black' /></span>
@@ -745,7 +745,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </div>
 
       {/* Card 4 */}
-      <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between">
+      <div className="bg-white rounded-xl p-6  flex flex-col justify-between shadow-[0px_12px_32px_rgba(0,0,0,0.07)]">
         <div>
           <div className="flex justify-between items-start mb-4">
             <span className="text-3xl text-gray-400"><LuQuote className='text-black' /></span>
@@ -775,7 +775,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </div>
 
       {/* Card 5 */}
-      <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between">
+      <div className="bg-white rounded-xl p-6  flex flex-col justify-between shadow-[0px_12px_32px_rgba(0,0,0,0.07)]">
         <div>
           <div className="flex justify-between items-start mb-4">
             <span className="text-3xl text-gray-400"><LuQuote className='text-black' /></span>
@@ -805,7 +805,7 @@ shadow-[0_8px_24px_rgba(0,0,0,0.15)]">
       </div>
 
       {/* Card 6 */}
-      <div className="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between">
+      <div className="bg-white rounded-xl p-6  flex flex-col justify-between shadow-[0px_12px_32px_rgba(0,0,0,0.07)]">
         <div>
           <div className="flex justify-between items-start mb-4">
             <span className="text-3xl text-gray-400"><LuQuote className='text-black' /></span>

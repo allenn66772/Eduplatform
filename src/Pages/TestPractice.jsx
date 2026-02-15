@@ -116,183 +116,203 @@ function TestPractice() {
 
 
     {/*  */}
-    <div className="w-full min-h-42.5 mb-6 flex justify-center items-center px-4 mt-8">
-  <div className="w-full max-w-7xl min-h-157.5 bg-white flex flex-col items-center">
+   <div className="w-full lg:h-[628px] h-auto flex justify-center px-4 lg:px-0">
+  <div className="w-full lg:w-[1280px] lg:h-[564px] flex flex-col lg:ms-[80px]">
 
-    <div className="w-full max-w-304 min-h-17">
-      <h1 className="text-3xl md:text-4xl font-bold">Test Practice</h1>
-      <p className="text-base md:text-lg pt-3 text-gray-500">
+    {/* Heading */}
+    <div className="w-full lg:w-[1216px] mt-8">
+      <h1 className="text-2xl lg:text-3xl font-bold">
+        Test Practice
+      </h1>
+      <p className="text-[#4B5563] mt-2 text-sm lg:text-base">
         Practice with mock tests and improve your preparation
       </p>
     </div>
 
-    <div className="w-full max-w-304 min-h-25.5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
-      
-      <div className="h-30 bg-white rounded-xl border border-gray-200 flex items-center justify-center">
-        <div className="w-[236px] h-[52px] flex items-center gap-4">
-          <div className="w-[32px] h-[32px] flex items-center justify-center text-blue-600">
-            <FiBookOpen className="text-3xl" />
-          </div>
-          <div className="w-[92px] h-[52px] flex flex-col justify-center">
-            <span className="text-2xl font-semibold text-gray-900">25</span>
-            <span className="text-sm text-gray-500">Tests Taken</span>
+    {/* Top Stats Cards */}
+    <div className="w-full lg:w-[1216px] mt-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+        {/* Card 1 */}
+        <div className="bg-white rounded-xl border border-gray-200 p-4 flex items-center justify-center lg:h-30">
+          <div className="flex items-center gap-4">
+            <FiBookOpen className="text-3xl text-blue-600" />
+            <div>
+              <span className="text-2xl font-semibold text-gray-900 block">25</span>
+              <span className="text-sm text-gray-500">Tests Taken</span>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="h-30 bg-white rounded-xl border border-gray-200 flex items-center justify-center">
-        <div className="w-[236px] h-[52px] flex items-center gap-4">
-          <div className="w-[32px] h-[32px] flex items-center justify-center">
+        {/* Card 2 */}
+        <div className="bg-white rounded-xl border border-gray-200 p-4 flex items-center justify-center lg:h-30">
+          <div className="flex items-center gap-4">
             <FiCheckCircle className="text-3xl text-green-600" />
-          </div>
-          <div className="w-[92px] h-[52px] flex flex-col justify-center">
-            <span className="text-2xl font-semibold text-gray-900">850</span>
-            <span className="text-sm text-gray-500 whitespace-nowrap">
-              Questions Solved
-            </span>
+            <div>
+              <span className="text-2xl font-semibold text-gray-900 block">850</span>
+              <span className="text-sm text-gray-500">Questions Solved</span>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="h-30 bg-white rounded-xl border border-gray-200 flex items-center justify-center">
-        <div className="w-[236px] h-[52px] flex items-center gap-4">
-          <div className="w-[32px] h-[32px] flex items-center justify-center text-blue-600">
-            <LuChartColumnIncreasing className="text-3xl" />
-          </div>
-          <div className="w-[92px] h-[52px] flex flex-col justify-center">
-            <span className="text-2xl font-semibold text-gray-900">82%</span>
-            <span className="text-sm text-gray-500 whitespace-nowrap">
-              Average Score
-            </span>
+        {/* Card 3 */}
+        <div className="bg-white rounded-xl border border-gray-200 p-4 flex items-center justify-center lg:h-30">
+          <div className="flex items-center gap-4">
+            <LuChartColumnIncreasing className="text-3xl text-blue-600" />
+            <div>
+              <span className="text-2xl font-semibold text-gray-900 block">82%</span>
+              <span className="text-sm text-gray-500">Average Score</span>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="h-30 bg-white rounded-xl border border-gray-200 flex items-center justify-center">
-        <div className="w-59 h-13 flex items-center gap-4">
-          <div className="w-8 h-8 flex items-center justify-center">
+        {/* Card 4 */}
+        <div className="bg-white rounded-xl border border-gray-200 p-4 flex items-center justify-center lg:h-30">
+          <div className="flex items-center gap-4">
             <FiClock className="text-3xl text-orange-500" />
-          </div>
-          <div className="w-23 h-13 flex flex-col justify-center">
-            <span className="text-2xl font-semibold text-gray-900">45h</span>
-            <span className="text-sm text-gray-500">Practice Time</span>
+            <div>
+              <span className="text-2xl font-semibold text-gray-900 block">45h</span>
+              <span className="text-sm text-gray-500">Practice Time</span>
+            </div>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
 
-    <div className="w-full max-w-304 min-h-66.5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-16">
-      
-      <div className="h-66.5 shadow-lg rounded-xl p-5 flex flex-col justify-between bg-white">
-        <h2 className="text-lg font-semibold text-gray-900">
-          NEET Mock Test 2024 - Biology
-        </h2>
-        <div className="flex gap-3 mt-2 flex-wrap">
-          <span className="px-3 py-1 text-sm rounded-full bg-gray-100 text-gray-700">
-            High
-          </span>
-          <span className="px-3 py-1 text-sm rounded-full bg-orange-500 text-white">
-            180 Questions
-          </span>
-        </div>
-        <div className="mt-4 space-y-2 text-sm text-gray-600">
-          <div className="flex justify-between">
-            <span>Duration:</span>
-            <span className="text-gray-900 font-medium">3 hours</span>
-          </div>
-          <div className="flex justify-between">
-            <span>Attempts:</span>
-            <span className="text-gray-900 font-medium">1250</span>
-          </div>
-          <div className="flex justify-between items-center">
-            <span>Rating:</span>
-            <span className="flex items-center gap-1 text-gray-900 font-medium">
-              4.8 <AiFillStar className="text-yellow-400" />
-            </span>
-          </div>
-        </div>
-        <Link to="/view-textpractice/:id">
-          <button className="mt-4 w-full py-3 rounded-lg bg-[#017CBA] text-white font-medium">
-            Start Test
-          </button>
-        </Link>
-      </div>
+    {/* Bottom Test Cards */}
+    <div className="w-full lg:w-[1216px] mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
 
-      <div className="h-[266px] shadow-lg rounded-xl p-5 flex flex-col justify-between bg-white">
-        <h2 className="text-lg font-semibold text-gray-900">
-          JEE Main Physics Practice
-        </h2>
-        <div className="flex gap-3 mt-2 flex-wrap">
-          <span className="px-3 py-1 text-sm rounded-full bg-gray-100 text-gray-700">
-            Medium
-          </span>
-          <span className="px-3 py-1 text-sm rounded-full bg-orange-500 text-white">
-            90 Questions
-          </span>
-        </div>
-        <div className="mt-4 space-y-2 text-sm text-gray-600">
-          <div className="flex justify-between">
-            <span>Duration:</span>
-            <span className="text-gray-900 font-medium">3 hours</span>
-          </div>
-          <div className="flex justify-between">
-            <span>Attempts:</span>
-            <span className="text-gray-900 font-medium">2100</span>
-          </div>
-          <div className="flex justify-between items-center">
-            <span>Rating:</span>
-            <span className="flex items-center gap-1 text-gray-900 font-medium">
-              4.6 <AiFillStar className="text-yellow-400" />
-            </span>
-          </div>
-        </div>
-        <Link to="/view-textpractice/:id">
-          <button className="mt-4 w-full py-3 rounded-lg bg-[#017CBA] text-white font-medium">
-            Start Test
-          </button>
-        </Link>
-      </div>
+        {/* Card 1 */}
+        <div className="shadow-lg border border-gray-200 rounded-xl p-6 flex flex-col justify-between bg-white lg:h-[266px]">
+          <div>
+            <h2 className="text-lg font-semibold text-gray-900">
+              NEET Mock Test 2024 - Biology
+            </h2>
 
-      <div className="h-[266px] shadow-lg rounded-xl p-5 flex flex-col justify-between bg-white">
-        <h2 className="text-lg font-semibold text-gray-900">
-          Plus Two Bio Science
-        </h2>
-        <div className="flex gap-3 mt-2 flex-wrap">
-          <span className="px-3 py-1 text-sm rounded-full bg-gray-100 text-gray-700">
-            Medium
-          </span>
-          <span className="px-3 py-1 text-sm rounded-full bg-orange-500 text-white">
-            50 Questions
-          </span>
-        </div>
-        <div className="mt-4 space-y-2 text-sm text-gray-600">
-          <div className="flex justify-between">
-            <span>Duration:</span>
-            <span className="text-gray-900 font-medium">2 hours</span>
-          </div>
-          <div className="flex justify-between">
-            <span>Attempts:</span>
-            <span className="text-gray-900 font-medium">890</span>
-          </div>
-          <div className="flex justify-between items-center">
-            <span>Rating:</span>
-            <span className="flex items-center gap-1 text-gray-900 font-medium">
-              4.7 <AiFillStar className="text-yellow-400" />
-            </span>
-          </div>
-        </div>
-        <Link to="/view-textpractice/:id">
-          <button className="mt-4 w-full py-3 rounded-lg bg-[#017CBA] text-white font-medium">
-            Start Test
-          </button>
-        </Link>
-      </div>
+            <div className="flex gap-3 mt-3 flex-wrap">
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-100 text-gray-700">
+                High
+              </span>
+              <span className="px-3 py-1 text-sm rounded-full bg-orange-500 text-white">
+                180 Questions
+              </span>
+            </div>
 
+            <div className="mt-5 space-y-2 text-sm text-gray-600">
+              <div className="flex justify-between">
+                <span>Duration:</span>
+                <span className="text-gray-900 font-medium">3 hours</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Attempts:</span>
+                <span className="text-gray-900 font-medium">1250</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span>Rating:</span>
+                <span className="flex items-center gap-1 text-gray-900 font-medium">
+                  4.8 <AiFillStar className="text-yellow-400" />
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <Link to="/view-textpractice/:id">
+            <button className="mt-6 w-full py-3 rounded-lg bg-[#017CBA] text-white font-medium">
+              Start Test
+            </button>
+          </Link>
+        </div>
+
+        {/* Card 2 */}
+        <div className="shadow-lg border border-gray-200 rounded-xl p-6 flex flex-col justify-between bg-white lg:h-[266px]">
+          <div>
+            <h2 className="text-lg font-semibold text-gray-900">
+              JEE Main Physics Practice
+            </h2>
+
+            <div className="flex gap-3 mt-3 flex-wrap">
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-100 text-gray-700">
+                Medium
+              </span>
+              <span className="px-3 py-1 text-sm rounded-full bg-orange-500 text-white">
+                90 Questions
+              </span>
+            </div>
+
+            <div className="mt-5 space-y-2 text-sm text-gray-600">
+              <div className="flex justify-between">
+                <span>Duration:</span>
+                <span className="text-gray-900 font-medium">3 hours</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Attempts:</span>
+                <span className="text-gray-900 font-medium">2100</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span>Rating:</span>
+                <span className="flex items-center gap-1 text-gray-900 font-medium">
+                  4.6 <AiFillStar className="text-yellow-400" />
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <Link to="/view-textpractice/:id">
+            <button className="mt-6 w-full py-3 rounded-lg bg-[#017CBA] text-white font-medium">
+              Start Test
+            </button>
+          </Link>
+        </div>
+
+        {/* Card 3 */}
+        <div className="shadow-lg border border-gray-200 rounded-xl p-6 flex flex-col justify-between bg-white lg:h-[266px]">
+          <div>
+            <h2 className="text-lg font-semibold text-gray-900">
+              Plus Two Bio Science
+            </h2>
+
+            <div className="flex gap-3 mt-3 flex-wrap">
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-100 text-gray-700">
+                Medium
+              </span>
+              <span className="px-3 py-1 text-sm rounded-full bg-orange-500 text-white">
+                50 Questions
+              </span>
+            </div>
+
+            <div className="mt-5 space-y-2 text-sm text-gray-600">
+              <div className="flex justify-between">
+                <span>Duration:</span>
+                <span className="text-gray-900 font-medium">2 hours</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Attempts:</span>
+                <span className="text-gray-900 font-medium">890</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span>Rating:</span>
+                <span className="flex items-center gap-1 text-gray-900 font-medium">
+                  4.7 <AiFillStar className="text-yellow-400" />
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <Link to="/view-textpractice/:id">
+            <button className="mt-6 w-full py-3 rounded-lg bg-[#017CBA] text-white font-medium">
+              Start Test
+            </button>
+          </Link>
+        </div>
+
+      </div>
     </div>
 
   </div>
 </div>
+ 
 
 
     <Footer/>

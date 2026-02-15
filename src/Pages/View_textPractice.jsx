@@ -110,155 +110,182 @@ function View_textPractice() {
 
     </div>
     {/*  */}
-    <div className="w-full min-h-[900px] mb-6 flex justify-center px-4">
-  <div className="w-full max-w-[1280px] min-h-[855.2px] bg-white">
+      <div className="w-full flex justify-center px-4 lg:px-0">
+  <div className="w-full lg:w-[1280px] lg:h-[855.2px] flex flex-col">
 
-    <div className="w-full max-w-[1216px] min-h-[68px] mt-16">
-      <h1 className="text-2xl md:text-3xl font-semibold">Test Practice</h1>
-      <p className="text-base md:text-lg text-gray-500">
-        Practice With tests from your purchased courses
+    {/* Header */}
+    <div className="w-full lg:w-[1216px] mt-8 lg:mt-[32px] lg:ms-[32px]">
+      <h1 className="text-2xl lg:text-3xl font-bold">
+        Test Practice
+      </h1>
+      <p className="text-[#4B5563] mt-2 text-sm lg:text-base">
+        Practice with mock tests and improve your preparation
       </p>
     </div>
 
-    <div className="w-full max-w-[1216px] min-h-[56px] flex flex-col md:flex-row justify-between gap-4 mt-10">
-      <div className="w-full md:w-[550px] min-h-[56px]">
-        <h1 className="text-2xl md:text-3xl font-semibold">
-          Plus Two Bio Science - Complete Course
-        </h1>
-        <p className="text-gray-500">Choose your practice type</p>
-      </div>
+    {/* Main Section */}
+    <div className="w-full lg:w-[1216px] lg:h-[603.2px] lg:ms-[32px] flex flex-col">
 
-      <button className="w-[160.6px] h-[40px] rounded-2xl border border-gray-200 flex items-center justify-center gap-2 text-sm text-gray-700 hover:bg-gray-100 transition">
-        <FaArrowLeft className="text-xs" />
-        Back To Courses
-      </button>
-    </div>
+      {/* Sub Header */}
+      <div className="w-full lg:w-[1216px] mt-8 lg:mt-[32px] flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
 
-    <div className="w-full max-w-[1216px] min-h-[603.2px] grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
-
-      <div className="bg-white rounded-xl border border-gray-200 p-6 flex flex-col justify-between">
-        <div>
-          <div className="flex items-center gap-3">
-            <FiCheckCircle className="text-green-500 text-xl" />
-            <h3 className="font-semibold text-gray-900">Daily Practice</h3>
-          </div>
-          <p className="text-sm text-gray-500 mt-1 mb-4">
-            Quick daily questions to keep you sharp
-          </p>
-          <ul className="text-sm text-gray-600 space-y-1 list-disc list-inside mb-4">
-            <li>Full syllabus coverage</li>
-            <li>3 hour duration</li>
-            <li>All subjects included</li>
-          </ul>
-          <p className="text-sm text-gray-500">
-            Quick 10–15 questions daily
+        <div className="w-full sm:w-[473px]">
+          <h1 className="text-2xl font-bold leading-tight">
+            Plus Two Bio science - Complete Course
+          </h1>
+          <p className="text-[#4B5563] text-sm leading-tight">
+            Choose your practice type
           </p>
         </div>
 
-      <Link to='/test-screen/:id'>
-          <button className="w-full py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 mt-3">
-            Start Daily Practice
-          </button>
-      </Link>
+        <div className="w-fit h-[40px] flex gap-2 rounded-xl border border-[#E2E8F0] justify-center items-center px-4">
+          <FaArrowLeft />
+          Back to Courses
+        </div>
+
       </div>
 
-      <div className="bg-white rounded-xl border border-gray-200 p-6 flex flex-col justify-between">
-        <div>
+      {/* Cards Grid */}
+      <div className="w-full max-w-[1216px] min-h-[603.2px] grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+
+        {/* Card 1 */}
+        <div className="bg-white rounded-xl border border-gray-200 p-6 flex flex-col justify-between">
+          <div>
+            <div className="flex items-center gap-3">
+              <FiCheckCircle className="text-green-500 text-xl" />
+              <h3 className="font-semibold text-gray-900">
+                Daily Practice
+              </h3>
+            </div>
+            <p className="text-sm text-gray-500 mt-1 mb-4">
+              Quick daily questions to keep you sharp
+            </p>
+            <ul className="text-sm text-gray-600 space-y-1 list-disc list-inside mb-4">
+              <li>Full syllabus coverage</li>
+              <li>3 hour duration</li>
+              <li>All subjects included</li>
+            </ul>
+            <p className="text-sm text-gray-500">
+              Quick 10–15 questions daily
+            </p>
+          </div>
+
+          <Link to="/test-screen/:id">
+            <button className="w-full py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 mt-3">
+              Start Daily Practice
+            </button>
+          </Link>
+        </div>
+
+        {/* Card 2 */}
+        <div className="bg-white rounded-xl border border-gray-200 p-6 flex flex-col justify-between">
+          <div>
+            <div className="flex items-center gap-3">
+              <LuBrain className="text-blue-600 text-xl" />
+              <h3 className="font-semibold text-gray-900">
+                Full Syllabus Mock Test
+              </h3>
+            </div>
+            <p className="text-sm text-gray-500 mt-1 mb-4">
+              Complete mock test covering all topics
+            </p>
+            <ul className="text-sm text-gray-600 space-y-1 list-disc list-inside">
+              <li>Full syllabus coverage</li>
+              <li>3 hour duration</li>
+              <li>All subjects included</li>
+            </ul>
+          </div>
+
+          <Link to="/test-screen/:id">
+            <button className="w-full py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 mt-3">
+              Start Mock Test
+            </button>
+          </Link>
+        </div>
+
+        {/* Card 3 */}
+        <div className="bg-white rounded-xl border border-gray-200 p-6">
           <div className="flex items-center gap-3">
-            <LuBrain className="text-blue-600 text-xl" />
+            <FiClock className="text-orange-500 text-xl" />
             <h3 className="font-semibold text-gray-900">
-              Full Syllabus Mock Test
+              Previous Year Papers
             </h3>
           </div>
           <p className="text-sm text-gray-500 mt-1 mb-4">
-            Complete mock test covering all topics
+            Solve previous year question papers
           </p>
-          <ul className="text-sm text-gray-600 space-y-1 list-disc list-inside">
-            <li>Full syllabus coverage</li>
-            <li>3 hour duration</li>
-            <li>All subjects included</li>
-          </ul>
+
+          <p className="text-sm text-gray-600 mb-3">
+            Select Subject:
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
+              Mathematics Previous Papers
+            </button>
+            <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
+              Botany Previous Papers
+            </button>
+            <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
+              Physics Previous Papers
+            </button>
+            <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
+              Zoology Previous Papers
+            </button>
+            <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
+              Chemistry Previous Papers
+            </button>
+            <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
+              English Previous Papers
+            </button>
+          </div>
         </div>
 
-        <Link to='/test-screen/:id'>
-          <button className="w-full py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 mt-3">
-            Start Mock Test
-          </button>
-        </Link>
-      </div>
+        {/* Card 4 */}
+        <div className="bg-white rounded-xl border border-gray-200 p-6">
+          <div className="flex items-center gap-3">
+            <FiFileText className="text-blue-600 text-xl" />
+            <h3 className="font-semibold text-gray-900">
+              Model Exam
+            </h3>
+          </div>
+          <p className="text-sm text-gray-500 mt-1 mb-4">
+            Subject-wise model examinations
+          </p>
 
-      <div className="bg-white rounded-xl border border-gray-200 p-6">
-        <div className="flex items-center gap-3">
-          <FiClock className="text-orange-500 text-xl" />
-          <h3 className="font-semibold text-gray-900">
-            Previous Year Papers
-          </h3>
+          <p className="text-sm text-gray-600 mb-3">
+            Select Subject:
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
+              Mathematics Model Exam
+            </button>
+            <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
+              Botany Model Exam
+            </button>
+            <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
+              Physics Model Exam
+            </button>
+            <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
+              Zoology Model Exam
+            </button>
+            <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
+              Chemistry Model Exam
+            </button>
+            <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
+              English Model Exam
+            </button>
+          </div>
         </div>
-        <p className="text-sm text-gray-500 mt-1 mb-4">
-          Solve previous year question papers
-        </p>
 
-        <p className="text-sm text-gray-600 mb-3">Select Subject:</p>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
-            Mathematics Previous Papers
-          </button>
-          <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
-            Botany Previous Papers
-          </button>
-          <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
-            Physics Previous Papers
-          </button>
-          <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
-            Zoology Previous Papers
-          </button>
-          <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
-            Chemistry Previous Papers
-          </button>
-          <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
-            English Previous Papers
-          </button>
-        </div>
-      </div>
-
-      <div className="bg-white rounded-xl border border-gray-200 p-6">
-        <div className="flex items-center gap-3">
-          <FiFileText className="text-blue-600 text-xl" />
-          <h3 className="font-semibold text-gray-900">Model Exam</h3>
-        </div>
-        <p className="text-sm text-gray-500 mt-1 mb-4">
-          Subject-wise model examinations
-        </p>
-
-        <p className="text-sm text-gray-600 mb-3">Select Subject:</p>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
-            Mathematics Model Exam
-          </button>
-          <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
-            Botany Model Exam
-          </button>
-          <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
-            Physics Model Exam
-          </button>
-          <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
-            Zoology Model Exam
-          </button>
-          <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
-            Chemistry Model Exam
-          </button>
-          <button className="border border-gray-200 rounded-lg py-2 text-sm hover:bg-gray-50">
-            English Model Exam
-          </button>
-        </div>
       </div>
 
     </div>
 
   </div>
 </div>
+
 
      {/* Footer */}
      <Footer/>  
